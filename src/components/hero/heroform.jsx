@@ -1,28 +1,41 @@
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Categories from "../categories";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+
 const Box = () => {
   return (
     <form
-      className="card mx-auto w-50"
+      className="card"
       style={{
-        marginTop: "10px",
-        height: "34vh",
-        width: "25px",
+        marginLeft: "auto",
+        marginRight: "30px",
+        width: "350px",
         height: "100%",
+        float: "right",
       }}
     >
       <div>
         <div className="card-body">
-          <div className="form-group" style={{ margin: "10px" }}>
-            <div style={{ textAlign: "left", marginBottom: "10px" }}>
+          <div className="form-group">
+            <div
+              style={{
+                textAlign: "left",
+                marginBottom: "10px",
+                marginTop: "5px",
+              }}
+            >
               Find your products
             </div>
             <input
               type="password"
               className="form-control"
               placeholder="Password"
+            />
+          </div>
+          <div className="form-group" style={{ margin: "10px 10px" }}>
+            <input
+              type="password"
+              className="form-control"
+              placeholder="Re-enter Password"
             />
           </div>
           <div className="form-group" style={{ margin: "10px 10px" }}>
@@ -87,7 +100,12 @@ const Box = () => {
           <Button
             type="button"
             className="btn btn-primary"
-            style={{ width: "50%", marginTop: "10px" }}
+            style={{
+              width: "50%",
+              marginTop: "10px",
+              background: "#00425A",
+              border: "none",
+            }}
           >
             <div
               to="/dashboard"

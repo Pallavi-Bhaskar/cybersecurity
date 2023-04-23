@@ -1,17 +1,19 @@
 import "./App.css";
 import Cards from "./components/cards/cards";
-import Categories from "./components/categories";
-import Box from "./components/mainside/mainside";
+
+import Box from "./components/hero/heroform";
 import Navbar from "./components/navbar/navbar";
-import Recruiters from "./components/recruiters";
+import Recruiters from "./pages/hero";
+import Hero from "./pages/heroGirl";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Cards />
-      <Box />
       <Recruiters />
+      <Hero />
+
+      <Cards />
     </div>
   );
 }

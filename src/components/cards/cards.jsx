@@ -1,28 +1,24 @@
 import React from "react";
-import "./cards.css";
+// import "./cards.css";
 
 export default function Cards() {
   return (
-    <div class="row">
-      <div class="col-sm-4">
+    <div className="row mt-5 mb-5">
+      <div className="col-sm-4">
         <div
-          class="card"
+          className="card"
           style={{
             height: "100%",
-            background: "#318CE7",
+            background: "#113CFC",
             color: "white",
             marginLeft: "20px",
             border: "none",
           }}
         >
           {/* immediate parent container  */}
-          <div class="card-body">
-            <h5 class="card-title">
-              LOOKING FOR A JOB?With supporting text below as a natural lead-in
-              to additionalm Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Sed ullam odio alias, minus laboru
-            </h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title ">LOOKING FOR A JOB?</h5>
+            <p className="card-text me-3">
               Lorem ipsum dolor sit amet consectWith supporting text below as a
               natural lead-in to additionalm Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Sed ullam odio alias, minus laborum,
@@ -31,19 +27,19 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div className="col-sm-4">
         <div
-          class="card"
+          className="card"
           style={{
             height: "100%",
-            background: "#ADD8E6",
+            background: "#41B3FF",
             color: "white",
             border: "none",
           }}
         >
-          <div class="card-body">
-            <h5 class="card-title">LOOKING FOR A JOB?</h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title">LOOKING FOR A JOB?</h5>
+            <p className="card-text">
               With supporting text below as a natural lead-in to additionalm
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ullam
               odio alias, minus laborum, animi distinctio dolorum illum commodi
@@ -53,9 +49,9 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div className="col-sm-4">
         <div
-          class="card"
+          className="card"
           style={{
             height: "100%",
             background: "white",
@@ -64,9 +60,9 @@ export default function Cards() {
             border: "none",
           }}
         >
-          <div class="card-body">
-            <h5 class="card-title">LOOKING FOR A JOB?</h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title">LOOKING FOR A JOB?</h5>
+            <p className="card-text">
               With supporting text below as a natural lead-in to additionalm
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ullam
               odio alias, minus laborum, animi distinctio dolorum illum commodi
